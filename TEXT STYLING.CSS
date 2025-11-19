@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+}
+h3{
+    color: rgb(255, 115, 0);
+    font-family: 'Times New Roman', Times, serif;
+        text-decoration: wavy;
+}
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: dotted;
+}
+h2{
+    color: rgb(251, 255, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 6cap;
+}

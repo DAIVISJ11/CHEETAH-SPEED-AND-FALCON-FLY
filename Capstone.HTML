@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="Capstone.CSS">
+    
+</head>
+<body>
+   <div class="topnav">
+    <a  class="active" href="Capstone.HTML" >Home</a>
+    <a href="Gallery.Html">Gallery</a>
+    <a href="About.Html">About_us</a>
+    <a href="Contact Us .Html">Contact_us</a>
+   </div> 
+   <section>
+    <img src="de6f6e35f2c6a611ddac365316e03bc1_large.jpeg" alt="" class="My_Slides" style="width: 500px;">
+    <img src="ece5d51fceb19374ac5286f65a7b24a8.jpg" alt="" class="My_Slides" style="width: 500px;">
+    <img src="Lynx 2.jpg" alt="" class="My_Slides" style=" width: 500px;">
+    <img src="Bobcat.jpg" alt="" class="My_Slides" style="width: 500px;">
+   </section>
+   <section class="Section">
+        Where curiosity meets the creatures that share our planet.
+
+Step into a space built for explorers of all ages. Whether you’re fascinated by the deep sea, enchanted by rainforest wildlife, or eager to learn about the animals living right in your neighbourhood, WildWorld brings the wonders of nature to your screen.
+
+Discover fun facts, stunning photos, and stories that reveal how incredible—and important—animals truly are. Every click opens a new adventure.
+
+If you want, I can tailor this intro to a specific type of animal site—educational, kid‑friendly, scientific, or even a zoo or rescue centre.
+    </section>
+    <div class="footer">
+        <footer>
+          <p>
+               <i>
+                  Phone : +44 7919 095618 
+                  Name : DJ
+               </i>
+          </p>
+        </footer>
+    </div>
+    
+   <script>
+    var myIndex = 0;
+    carousel();
+    function carousel(){
+        var i;
+        var x = document.getElementsByClassName("My_Slides")
+
+        for (i=0; i < x.length; i++){
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1 }
+        x[myIndex-1].style.display = "block"
+        setTimeout(carousel, 3000);
+    }
+   </script>
+</body>
+</html>
